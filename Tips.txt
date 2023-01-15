@@ -1,0 +1,19 @@
+Para criar um ambiente virtual em python use este comando: 
+ - python -m venv <nome do ambiente>
+--------------------------------------------------
+Para ativar seu ambiente virtual use:
+
+Windows: nome do ambiente\scripts\activate
+Linux: source nome do ambiente/bin/activate
+--------------------------------------------------
+Para desativar seu ambiente virtual use:
+
+Windows: nome do ambiente\scripts\deactivate
+Linux: source nome do ambiente/bin/deactivate
+--------------------------------------------------
+Gerenciador de Pacotes do Python é chamado de: pip
+Instalar pacotes: pip install pacote
+Para desinstalar: pip unistall pacote
+Para instalar pacotes com versões mais especificas: 
+ -pip install pacote==0.0.0
+Obs: Os pacotes são instalados do repositorio -> www.pipy.org
