@@ -1,21 +1,28 @@
-combustivel = str(input('Digite o tipo de combusitvel: ')).strip().capitalize()
+combustivel = str(input("Digite o tipo de combusitvel: ")).strip().capitalize()
 
-litro = float(input('Digite a quantidade de litros: '))
+litro = float(input("Digite a quantidade de litros: "))
 
-if combustivel == 'A':
+if combustivel == "A":
     alcool = 3.5
     custo = litro * alcool
 
 
 if litro <= 20:
-    desconto1 = (custo * 3)/100
-    print("O desconto de combustivel foi de: {} e o preço agora é {}".format(desconto1,custo-desconto1))
+    desconto1 = (custo * 3) / 100
+    print(
+        "O desconto de combustivel foi de: {} e o preço agora é {}".format(
+            desconto1, custo - desconto1
+        )
+    )
 
 
 elif litro > 20:
-    desconto2 = (custo * 5)/100
-    print("O desconto de combustivel foi de: {} e o preço agora é {}".format(desconto2, custo-desconto2))
-
+    desconto2 = (custo * 5) / 100
+    print(
+        "O desconto de combustivel foi de: {} e o preço agora é {}".format(
+            desconto2, custo - desconto2
+        )
+    )
 
 
 # elif combustivel == 'G':
