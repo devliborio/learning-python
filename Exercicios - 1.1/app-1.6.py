@@ -16,4 +16,4 @@ if n1 and n2 and nr:
             bAlternative
         )
     )
-    print("C - O resultado de nr elevado ao cubo: {}".format(cAlternative))
+    print("C - O resultado de nr elevado ao cubo é: {}".format(cAlternative))
