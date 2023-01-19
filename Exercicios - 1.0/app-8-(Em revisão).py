@@ -24,17 +24,16 @@ elif litro > 20:
         )
     )
 
-
-# elif combustivel == 'G':
-#     gasolina = 3.5
-#     custo = litro * gasolina
-
-
-# if litro <= 20:
-#     desconto3 = (custo * 4)/100
-#     print("O desconto de combustivel foi de: {} e o preço agora é {}".format(desconto3, custo-desconto3))
+elif combustivel == 'G':
+    gasolina = 3.5
+    custo = litro * gasolina
 
 
-# elif litro > 20:
-#     desconto4 = (custo * 6)/100
-#     print("O desconto de combustivel foi de: {} e o preço agora é {}".format(desconto4, custo-desconto4))
+if litro <= 20:
+    desconto3 = (custo * 4)/100
+    print("O desconto de combustivel foi de: {} e o preço agora é {}".format(desconto3, custo-desconto3))
+
+
+elif litro > 20:
+    desconto4 = (custo * 6)/100
+    print("O desconto de combustivel foi de: {} e o preço agora é {}".format(desconto4, custo-desconto4))
